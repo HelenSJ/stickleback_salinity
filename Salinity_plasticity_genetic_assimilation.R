@@ -14,7 +14,7 @@ library(geomorph) # morphometric analyses
 library(Evomorph) # Getting deviation from consensus mean morphology
 
 
-setwd("/Users/helen/Desktop/BaldwinGitHub/")
+setwd()
 
 Theme <- theme(axis.line=element_line(colour="black", linewidth=0.5), panel.background=element_blank())
 TypeCols <- scale_colour_manual(values=c("Anadromous"="red","Young Freshwater"="Green", "Old Freshwater"="Blue" ))
